@@ -10,18 +10,18 @@
   <meta name="description" content="">
   
   
-  <title>Mark</title>
+  <title>Fotografias</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Finlandica:400,500,600,700,400i,500i,600i,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Finlandica:400,500,600,700,400i,500i,600i,700i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=VvzDmP"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=VvzDmP" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=wV5ldw"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=wV5ldw" type="text/css">
 
   
   
@@ -30,7 +30,7 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="menu menu2 expertm5 cid-uKkvyQQV8Y" once="menu" id="amenu2-c">
+  <section data-bs-version="5.1" class="menu menu2 expertm5 cid-uKkvyQQV8Y" once="menu" id="amenu2-f">
     
 
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -115,27 +115,150 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header5 expertm5 cid-thXW3OwmyZ mbr-fullscreen mbr-parallax-background" id="aheader5-3">
-
+<section data-bs-version="5.1" class="gallery4 expertm5 cid-uKlSThObxv" id="agallery4-h">
     
 
     
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
-
+    
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
-                <h1 class="mbr-section-title mbr-fonts-style display-1">
-                    UN MANCO PROFECIONAL</h1>
-                
-                
-                
+        <div class="row">
+            <div class="col-12">
+                <div class="mbr-section-head">
+                    
+                    <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-2"><strong>Fotografia</strong><br><br><strong><br></strong></h5>
+                </div>
             </div>
         </div>
+        <div class="row card-row justify-content-center">
+            <div class="item features-image col-12 col-md-6 col-xl-4 active">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <a href="#" onclick="abrirGaleria(); return false;">
+          <img src="assets/images/portada.png-673x841.png" class="img-fluid rounded shadow" alt="Imagen miniatura" data-slide-to="0" data-bs-slide-to="0">
+        </a>
+                    </div>
+                    <div class="card-box">
+                        <div class="head-container">
+                            <h5 class="card-title mbr-fonts-style display-4">BEN YART</h5>
+                            
+                        </div>
+                        <p class="card-text mbr-fonts-style display-7">Sala 1 (no se k mierda son las salas xD)</p>
+                    </div>
+                </div>
+            </div><div class="item features-image col-12 col-md-6 col-xl-4 active">
+                <div class="item-wrapper">
+                    <div class="card-bg"></div>
+                    <div class="item-img">
+                        <a href="#" onclick="abrirGaleria2(); return false;">
+          <img src="assets/images/portada.png-1080x1350.png" class="img-fluid rounded shadow" alt="Imagen miniatura" data-slide-to="1" data-bs-slide-to="1">
+        </a>
+                    </div>
+                    <div class="card-box">
+                        <div class="head-container">
+                            <h5 class="card-title mbr-fonts-style display-4">RODRICC</h5>
+                            
+                        </div>
+                        <p class="card-text mbr-fonts-style display-7">Sala 2</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+  <!-- Modal -->
+  <div class="modal fade" id="galeriaModal" tabindex="-1" aria-labelledby="galeriaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-dark text-white">
+        <div class="modal-header">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="galeriaCarrusel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              
+              
+              <div class="carousel-item active">
+                <img src="assets/images/imagen1.png" class="d-block w-100" alt="Imagen 1">
+              </div>
+                <div class="carousel-item">
+                <img src="assets/images/imagen2-1.png" class="d-block w-100" alt="Imagen 2">
+              </div>
+                <div class="carousel-item">
+                <img src="assets/images/imagen3-1.png" class="d-block w-100" alt="Imagen 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+         <!-- Modal 2 -->
+  <div class="modal fade" id="galeriaModal2" tabindex="-1" aria-labelledby="galeriaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content bg-dark text-white">
+        <div class="modal-header">
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="galeriaCarrusel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              
+              
+              <div class="carousel-item active">
+                <img src="assets/images/imagen1.png" class="d-block w-100" alt="Imagen 1">
+              </div>
+                <div class="carousel-item">
+                <img src="assets/images/imagen2-1.png" class="d-block w-100" alt="Imagen 2">
+              </div>
+                <div class="carousel-item">
+                <img src="assets/images/imagen3-1.png" class="d-block w-100" alt="Imagen 3">
+              </div>
+                <div class="carousel-item">
+                <img src="assets/images/imagen4-1.png" class="d-block w-100" alt="Imagen 4">
+              </div>
+                <div class="carousel-item">
+                <img src="assets/images/imagen5-1.png" class="d-block w-100" alt="Imagen 5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarrusel2" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+  <!-- Bootstrap Modal Script -->
+  <script>
+    function abrirGaleria() {
+      var modal = new bootstrap.Modal(document.getElementById('galeriaModal'));
+      modal.show();
+    }
+  </script>
+          <!-- Bootstrap Modal Script -->
+  <script>
+    function abrirGaleria2() {
+      var modal = new bootstrap.Modal(document.getElementById('galeriaModal2'));
+      modal.show();
+    }
+  </script>
+
+     </div>
 </section>
 
-<section data-bs-version="5.1" class="footer2 expertm5 cid-thXV9fHxsF mbr-reveal" once="footers" id="afooter2-2">
+<section data-bs-version="5.1" class="footer2 expertm5 cid-thXV9fHxsF mbr-reveal" once="footers" id="afooter2-g">
 
     
 
@@ -160,15 +283,13 @@
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/parallax/jarallax.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
   
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  
 
 </body>
 </html>
