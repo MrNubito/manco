@@ -1424,7 +1424,7 @@ a:hover {
   flex-grow: 1;
 }
 .cid-thXW3OwmyZ {
-  background-image: url("../../../assets/images/chatgpt-image-4-may-2025-21-44-49.png-1536x1024.png");
+  background-image: url("../../../assets/images/fondo-final.jpg-1536x1024.jpg");
 }
 .cid-thXW3OwmyZ .mbr-fallback-image.disabled {
   display: none;
@@ -1455,6 +1455,66 @@ a:hover {
 }
 .cid-thXW3OwmyZ .mbr-section-btn .btn {
   box-shadow: none !important;
+}
+.cid-uL3K5u7LjQ {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #212428;
+  overflow: hidden;
+}
+.cid-uL3K5u7LjQ .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uL3K5u7LjQ .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uL3K5u7LjQ .item-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #191b1f, -10px -10px 19px #23272b;
+}
+@media (max-width: 767px) {
+  .cid-uL3K5u7LjQ .item-wrap {
+    padding: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .cid-uL3K5u7LjQ .item-wrap {
+    padding: 35px 25px 35px 25px;
+  }
+}
+.cid-uL3K5u7LjQ .card-title {
+  color: #C4CFDE;
+  margin-bottom: 15px;
+}
+.cid-uL3K5u7LjQ .card-subtitle {
+  color: #C4CFDE;
+  margin-bottom: 15px;
+}
+.cid-uL3K5u7LjQ .border-item {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: #16181c;
+}
+.cid-uL3K5u7LjQ .card-text {
+  color: #C4CFDE;
+  margin-bottom: 0;
+}
+.cid-uL3K5u7LjQ H5 {
+  text-align: left;
+  color: #ffffff;
 }
 .cid-thXV9fHxsF {
   padding-top: 15px;
@@ -2256,6 +2316,7 @@ a:hover {
   margin-bottom: 0;
   flex-basis: 60%;
   margin-right: auto;
+  text-align: left;
 }
 .cid-uKlSThObxv .comment-item {
   display: flex;
@@ -2291,7 +2352,7 @@ a:hover {
 }
 .cid-thXV9fHxsF {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #212428;
   overflow: hidden;
 }
@@ -3100,7 +3161,7 @@ a:hover {
 }
 .cid-thXV9fHxsF {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #212428;
   overflow: hidden;
 }
@@ -4076,7 +4137,7 @@ a:hover {
 }
 .cid-thXV9fHxsF {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   background-color: #212428;
   overflow: hidden;
 }
